@@ -3,7 +3,7 @@ module.exports = {
   rules: {
     'linebreak-style': 0,
   },
-  // parserOptions: {
-  //   project: './tsconfig.json',
-  // },
+  parserOptions: {
+    project: './tsconfig.json',
+  },
 };
