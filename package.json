@@ -9,9 +9,6 @@
     "lint": "next lint",
     "prepare": "husky install"
   },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx,json,css}": ["eslint --fix --exit-on-fatal-error"]
-  },
   "dependencies": {
     "next": "12.2.2",
     "react": "18.2.0",
