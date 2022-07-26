@@ -1,11 +1,10 @@
-import { ActionIcon, Group, useMantineColorScheme } from '@mantine/core';
+import { ActionIcon, useMantineColorScheme } from '@mantine/core';
 import { Moon, Sun } from 'phosphor-react';
 
 function ColorSchemeToggle() {
   const { colorScheme, toggleColorScheme } = useMantineColorScheme();
 
   return (
-    <Group position="center" mt="xl">
       <ActionIcon
         onClick={() => toggleColorScheme()}
         size="xl"
@@ -26,7 +25,6 @@ function ColorSchemeToggle() {
           <Moon size={20} />
         )}
       </ActionIcon>
-    </Group>
   );
 }
 

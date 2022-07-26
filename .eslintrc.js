@@ -9,6 +9,7 @@ module.exports = {
   rules: {
     'linebreak-style': 0,
     'no-restricted-exports': 0,
+    'no-unused-vars': ['error', 'all'],
     'import/extensions': ['error', 'never', { svg: 'always' }],
     'import/no-extraneous-dependencies': [
       'error',
