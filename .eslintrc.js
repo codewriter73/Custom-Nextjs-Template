@@ -15,7 +15,7 @@ module.exports = {
       {
         devDependencies: [
           '**/*.test.ts',
-          '**/*.test.tsx',
+          '**/*.test.jsx',
           '**/*.cy.js',
           'cypress.config.ts',
         ],
